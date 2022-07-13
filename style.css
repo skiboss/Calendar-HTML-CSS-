@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #868484;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  padding: 1em;
+  width: 100%;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+main {
+  margin-top: 110px;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.days, .date {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style-type: none;
+}
