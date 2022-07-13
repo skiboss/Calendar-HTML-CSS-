@@ -36,6 +36,11 @@ main {
   justify-content: space-evenly;
 }
 
+.month {
+  background-color: #faeeee;
+  border:1px solid #868484 ;
+}
+
 .days, .date {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
